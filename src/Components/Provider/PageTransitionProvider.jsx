@@ -48,7 +48,7 @@ export const PageTransitionProvider = ({ children }) => {
         }
         return prevStep + 1; // Move to the next step
       });
-    }, 1000); // 1-second interval
+    }, 500); // 0.5-second interval
 
     // Clean up the interval when component unmounts
     return () => clearInterval(interval);
@@ -80,7 +80,7 @@ export const PageTransitionProvider = ({ children }) => {
             })(),
           }}
           className={
-            "fixed w-full h-full left-0 top-0 z-[99] overflow-hidden transition-all duration-300 bg-Mneutral_900 " +
+            "fixed w-full h-full left-0 top-0 z-[99] overflow-hidden transition-all duration-150 bg-Mneutral_900 " +
             (router.pathname === "/" ? "opacity-0 pointer-events-none" : "")
           }
         >
@@ -110,7 +110,7 @@ export const PageTransitionProvider = ({ children }) => {
               })(),
             }}
             transition={{
-              duration: 0.9,
+              duration: 0.45,
               ease: "easeInOut",
             }}
             src={originalUrl + "sdasd.svg"}
@@ -126,7 +126,7 @@ export const PageTransitionProvider = ({ children }) => {
             opacity: step >= 3 || router.pathname === "/" ? 1 : 0, // Fade in when step reaches 4 or when on home page
           }}
           exit={{ opacity: 0 }} // Fade out when leaving the page
-          transition={{ duration: 0.3, ease: "easeInOut" }}
+          transition={{ duration: 0.15, ease: "easeInOut" }}
         >
           {children}
         </motion.div>

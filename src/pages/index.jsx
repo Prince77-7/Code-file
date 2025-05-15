@@ -27,7 +27,7 @@ const Index = () => {
         }
         return prevStep + 1; // Pindah ke langkah berikutnya
       });
-    }, 1000); // Interval 1 detik
+    }, 500); // Interval 0.5 detik
 
     // Membersihkan interval saat komponen unmount
     return () => clearInterval(interval);

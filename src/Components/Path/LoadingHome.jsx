@@ -25,7 +25,7 @@ const LoadingHome = ({ step = 0 }) => {
               if (step === 3) return "auto";
               if (step === 4) return "none";
             })(),
-          }} className="fixed w-full h-full left-0 top-0 z-[99] bg-Mneutral_900 overflow-hidden transition-all duration-500">
+          }} className="fixed w-full h-full left-0 top-0 z-[99] bg-Mneutral_900 overflow-hidden transition-all duration-250">
         <motion.img
           initial={{
             y: "100vh",
@@ -58,7 +58,7 @@ const LoadingHome = ({ step = 0 }) => {
             })(),
           }}
           transition={{
-            duration: 0.9,
+            duration: 0.45,
             ease:"easeInOut"
           }}
           src={originalUrl + "sdasd.svg"}
