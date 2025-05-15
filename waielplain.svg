@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="51.261002mm"
+   viewBox="0 0 200 51.261002"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="waielplain.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.29037504"
+     inkscape:cx="824.7954"
+     inkscape:cy="1079.6382"
+     inkscape:window-width="1728"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="matrix(2.3290592,0,0,2.3290592,-96.740936,-264.94843)">
+    <path
+       style="font-weight:bold;font-size:31.3973px;line-height:0.6;font-family:Broad;-inkscape-font-specification:'Broad Bold';fill-opacity:0.996078;stroke-width:0.264583"
+       d="m 69.071918,113.75761 -7.78653,21.97811 h -0.81633 l -5.149157,-12.55892 -5.180555,12.55892 h -0.81633 l -7.78653,-21.97811 h 3.328113 l 5.054966,14.28577 5.400336,-13.06128 5.368938,13.06128 5.086363,-14.28577 z m 17.613862,21.97811 h -3.359511 l -2.040824,-4.92938 h -9.262204 l -2.040825,4.92938 h -3.359511 l 9.042423,-21.97811 h 1.97803 z m -6.687625,-8.06911 -3.328114,-8.1319 -3.359511,8.1319 z m 8.665653,8.06911 v -21.97811 h 3.13973 v 21.97811 z m 21.130392,-3.10833 v 3.13973 H 97.109694 v -0.0314 h -1.569865 v -21.97811 h 13.846211 v 3.13973 H 98.679559 v 6.37365 h 7.974911 v 3.13973 h -7.974911 v 6.21667 z m 17.61387,-0.0628 v 3.13973 h -15.0707 v -21.94671 h 3.10833 v 18.80698 z"
+       id="text1"
+       aria-label="WAIEL" />
+  </g>
+</svg>
